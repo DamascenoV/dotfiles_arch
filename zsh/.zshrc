@@ -74,7 +74,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git npm zsh-navigation-tools zsh-autosuggestions web-search)
+plugins=(git npm z fzf zsh-navigation-tools zsh-autosuggestions web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -144,4 +144,5 @@ alias gp='git push origin master'
 alias vim='lvim'
 alias lazygit='lazygit'
 alias ds="sudo systemctl start docker"
+alias tmux="tmux -u"
 
